@@ -2,7 +2,7 @@
 
 [![](https://img.shields.io/badge/language-python-green)](https://github.com/fangdaoyou)
 
-[![](https://img.shields.io/badge/code_quality-A-green)](https://github.com/fangdaoyou)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/fb3b46950f294ac99fca5a155a7c06b8)](https://www.codacy.com/manual/fangdaoyou/thirteenwater?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=fangdaoyou/thirteenwater&amp;utm_campaign=Badge_Grade)
 
 运行环境：windows
 
