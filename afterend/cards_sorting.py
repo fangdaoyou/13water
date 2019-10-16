@@ -139,7 +139,7 @@ def is_continue(list):
         if score == 0:
             score = is_hulu(list)
         if score == 0:
-            scores = is_shunzi(list)
+            score = is_shunzi(list)
         if score == 0:
             score = is_santiao(list)
         if score == 0:
