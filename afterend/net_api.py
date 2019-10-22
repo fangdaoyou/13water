@@ -9,6 +9,7 @@ def sign_in(username,password):
     payload={"username":username,"password":password}
     headers={'content-type': "application/json"}
     r=requests.post(url+'/auth/login',json=payload,headers=headers)
+    print(r)
     if r.status_code==200:
         data = r.json()
         status = data['status']
@@ -127,8 +128,8 @@ def get_history_details(game_id):
     return data
 
 if __name__=='__main__':
-    print(get_history_list(3,2))
-
-
+    print(sign_in('林郁昊','wdy740103'))
+    while True:
+        print(new_game_and_play())
 
 
